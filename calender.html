@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Compact Minimal Calendar</title>
+  <title>Minimal Calendar</title>
   <style>
     body {
       margin: 0;
@@ -106,7 +106,7 @@
       }
     }
 
-    generateCalendar();
+    window.onload = generateCalendar;  // Ensuring the function runs after the window loads
   </script>
 </body>
 </html>
